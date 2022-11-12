@@ -1,3 +1,4 @@
+/* eslint no-undef:0 */
 describe('Pokedex', function () {
   it('front page can be opened', function () {
     cy.visit('http://localhost:5000')
@@ -11,3 +12,4 @@ describe('Pokedex', function () {
     cy.contains('chlorophyll')
   })
 })
+/* eslint no-undef:1 */
